@@ -18,6 +18,7 @@
 body {
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
+    background-color: #eee;
 }
 .container {
     min-height: 100vh;
@@ -68,10 +69,12 @@ body {
     flex-direction: column;
     padding: 20px 25px;
     justify-content: space-between;
-    background-color: #eee;
+    background-color: white;
+    box-shadow: 0 0 10px gray;
     border-radius: 4px;
     position: relative;
     flex-grow: 1;
+
 }
 @media (min-width:1024px) {
     .container .flex .card {

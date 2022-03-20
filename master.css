@@ -18,11 +18,11 @@
 body {
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
-    background-color: #eee;
+    background-color: #ffeaea;
 }
 .container {
     min-height: 100vh;
-    width: 85%;
+    width: 90%;
     margin: auto;
 
 }
@@ -37,7 +37,7 @@ body {
    
 }
 .container header h2 {
-    font-size: calc(1.4em + .8vw);
+    font-size: calc(1em + 1.2vw);
     font-weight: var(--fwl);
     margin-bottom: 15px;
     color: var(--db);
@@ -61,16 +61,17 @@ body {
     justify-content: space-evenly;
     margin-top: 50px;
     margin-bottom: 50px;
+    align-items: center;
 }
 .container .flex .card  {
-    width:260px;
+    width:280px;
     height: 200px;
     display: flex;
     flex-direction: column;
     padding: 20px 25px;
     justify-content: space-between;
     background-color: white;
-    box-shadow: 0 0 10px gray;
+    box-shadow: 0 0 5px gray;
     border-radius: 4px;
     position: relative;
     flex-grow: 1;
@@ -125,6 +126,7 @@ body {
 .container .card   .icon {
     display: flex;
     justify-content: flex-end;
+    width: 100%;
 }
 .container .card   .icon img {
     width: 50px;

@@ -74,6 +74,7 @@ body {
     border-radius: 4px;
     position: relative;
     flex-grow: 1;
+    Align-items:center;
 
 }
 @media (min-width:1024px) {
@@ -82,9 +83,6 @@ body {
     }
 }
 
-.container .flex >.card:nth-child(2n+1) {
-    margin-top:10%;
-}
 
 .container .flex .card::before {
     content: '';
